@@ -1,0 +1,31 @@
+{
+  "class_names": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ],
+  "input_shape": [
+    32,
+    32,
+    3
+  ],
+  "input_format": "RGB, nilai piksel 0-255 (float32), normalisasi sudah di dalam model",
+  "best_hyperparameters": {
+    "filters": 64,
+    "dropout_conv": 0.2,
+    "dropout_dense": 0.4,
+    "dense_units": 128,
+    "learning_rate": 0.001
+  },
+  "test_accuracy_baseline": 0.7145,
+  "test_accuracy_optimized": 0.9161,
+  "tensorflow_version": "2.21.0",
+  "keras_version": "3.13.2"
+}
